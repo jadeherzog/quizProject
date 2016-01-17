@@ -12,7 +12,7 @@ angular.module('quizUI').directive('incrementDirective', function () {
                 console.log($scope);
 
                 $scope.data.total = $scope.data.total + value;
-
+                  
                 console.log($scope.data.total);
             };
         }
